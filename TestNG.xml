@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Testing Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.pet.listeners.ExtentReportNG" />
+	</listeners>
+	<test name="APITest">
+		<classes>
+			<class name="com.pet.test.PetAcceptanceTest" />
+		</classes>
+	</test>
+</suite>
